@@ -39,7 +39,7 @@ const getVenues = async () => {
 }
 
 const getForecast = async () => {
-  const urlToFetch = `${getForecast}${apiKey}&q=${$input.val()}&days=4&hour=11`;
+  const urlToFetch = `${forecastUrl}${apiKey}&q=${$input.val()}&days=4&hour=11`;
   try{
     const response = await fetch(urlToFetch);
     if(response.ok){
