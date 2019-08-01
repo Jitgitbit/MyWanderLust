@@ -1,7 +1,7 @@
 // Foursquare API Info
 const clientId = '0D30P0CAGAO1I55JSSIPMVH11ZV0OHVIDK4E1PARKP3425WH';
 const clientSecret = 'K5UWIE1JBXANENM3KRFSOVITP0FLLCPFM4FG1HXNZIAVZN2X';
-const url = 'GET https://api.foursquare.com/v2/venues/explore?near=';
+const url = 'https://api.foursquare.com/v2/venues/explore?near=';
 
 // APIXU Info
 const apiKey = 'c1e10c64a3094cef967184205193107';
